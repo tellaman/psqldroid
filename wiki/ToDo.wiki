@@ -17,6 +17,7 @@
 = ToDo (Distribution) = 
 
   * Package the binaries in an .apk file (if native code can be distributed that way)
-  * Make available via
+
+Make available via
   ** The Android Market ?
   ** AndAppStore ?
