@@ -1,5 +1,5 @@
 #summary How to Build PsqlDroid from Source
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 = Instructions =
 
