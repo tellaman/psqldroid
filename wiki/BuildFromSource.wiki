@@ -1,0 +1,17 @@
+#summary How to Build PsqlDroid from Source
+
+Steps to Compile from Source: 
+
+# download & configure the Android source tree
+# download postgresql-8.4.1
+# download the psqldroid patch
+# extract the postgres archive and move the directory to external/postgresql under your Android source tree
+# change into the external/postgresql directory
+# apply the psqldroid patch
+# run 'sh create-symbolic-links.sh'
+# change to the root of the android source tree
+# make psql
+
+Notes: 
+* This is known to work with the Android Donut release, but probably others as well
+* Once the compilation completes, you will find binaries under target/out/...
